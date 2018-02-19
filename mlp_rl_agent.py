@@ -6,7 +6,6 @@ import gym
 from gym import wrappers, logger
 
 class MLPAgent(object):
-    """The world's simplest agent!"""
     def __init__(self, action_space, learning_rate=0.01):
         self.action_space = action_space
         n_input = 4
